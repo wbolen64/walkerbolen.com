@@ -21,24 +21,26 @@
 <body class="w3-blue-grey">
 
 <!-- Icon Bar (Sidebar) -->
-<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+    <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+    •	<a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
         <i class="fa fa-home w3-xxlarge"></i>
         <p>HOME</p>
-    </a>
+     </a>
     <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
         <i class="fa fa-user w3-xxlarge"></i>
-        <p>ABOUT</p>
+        <p>ABOUT ME</p>
     </a>
     <a href="#greeklife" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
         <i class="fas fa-beer w3-xxlarge"></i>
-        <p>Greek Life</p>
+        <p>GREEK LIFE</p>
     </a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-        <i class="fa fa-envelope w3-xxlarge"></i>
-        <p>CONTACT</p>
+        <i class="fas fa-laptop-house w3-xxlarge"></i>
+        <p>CONTACT ME</p>
     </a>
-</nav>
+
+</div>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
 <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
@@ -66,7 +68,7 @@
     <header class="w3-container w3-padding-32 w3-center w3-dark-grey" id="home">
         <h1 class="w3-jumbo"><span class="w3-hide-small">Hi, I'm</span> Walker Bolen</h1>
         <p>Full Time Student and ServiceDesk Intern @ American Commercial Barge Line</p>
-        <img src="/Photos/mount.jpg" alt="mountains" class="w3-image" width="400" height="600">
+        <img src="/Photos/mount.jpg" class="w3-image" width="392" height="508">
     </header>
 
     <!-- About Section -->
