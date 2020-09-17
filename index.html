@@ -12,7 +12,7 @@
     body, h1,h2,h3,h4,h5,h6 {font-family: "Comic Sans MS",bold, sans-serif}
     .w3-row-padding img {margin-bottom: 12px}
     /* Set the width of the sidebar to 120px */
-    .w3-sidebar {width: 120px;background: #888888;}
+    .w3-sidebar {width: 150px;background: #888888;}
     /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
     #main {margin-left: 120px}
     /* Remove margins from "page content" on small screens */
@@ -22,6 +22,7 @@
 
 <!-- Icon Bar (Sidebar) -->
 <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
     <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
     •	<a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
         <i class="fa fa-home w3-xxlarge"></i>
@@ -39,7 +40,7 @@
         <i class="fas fa-laptop-house w3-xxlarge"></i>
         <p>CONTACT ME</p>
     </a>
-
+    </nav>
 </div>
 
 <!-- Navbar on small screens (Hidden on medium and large screens) -->
@@ -64,7 +65,7 @@
             document.getElementById("mySidebar").style.display = "none";
         }
     </script>
-    
+
     <!-- Header/Home -->
     <header class="w3-container w3-padding-32 w3-center w3-dark-grey" id="home">
         <h1 class="w3-jumbo"><span class="w3-hide-small">Hi, I'm</span> Walker Bolen</h1>
